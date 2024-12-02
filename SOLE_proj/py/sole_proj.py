@@ -9,18 +9,31 @@ import sys
 
 base_url = 'https://jira.footlocker.com/rest/api/2/search'
 
-global logger
-logger = setup_logger()
-logger.info("=======================================")
-logger.info("Script start accumulating data from JIRA")
 
 
+def setup_logger( level=logging.INFO):
+    """Configures a logger and returns it."""
 
-filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/SOLE/'
-# filepath='./output/'
+    # if not os.path.exists('./log'):
+    #     os.makedirs('./log')
 
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
-datestr = ""
+    # handler = logging.FileHandler('./log/soleProj.log')
+    handler = logging.StreamHandler()
+    handler.setFormatter(formatter)
+   
+    logger = logging.getLogger()
+    logger.setLevel(level)
+    
+    if (logger.hasHandlers()):
+        logger.handlers.clear()
+
+    logger.addHandler(handler)
+   
+
+    return logger
+
 
 def get_report(base_url):
     logger.info("Getting report results...")
@@ -74,28 +87,6 @@ def getUrlDataSet(url):
         # pd_obj = pd.json_normalize(obj['issues'])
     return pd_obj
 
-def setup_logger( level=logging.INFO):
-    """Configures a logger and returns it."""
-
-    # if not os.path.exists('./log'):
-    #     os.makedirs('./log')
-
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-
-    # handler = logging.FileHandler('./log/soleProj.log')
-    handler = logging.StreamHandler()
-    handler.setFormatter(formatter)
-   
-    logger = logging.getLogger()
-    logger.setLevel(level)
-    
-    if (logger.hasHandlers()):
-        logger.handlers.clear()
-
-    logger.addHandler(handler)
-   
-
-    return logger
 
 
 def sprintvalue(x,field):
@@ -293,13 +284,27 @@ def fetch(issueType, project):
 def getBaselineLst(element):
    baselinelst =[]
    if element != None:
-      print(element)
+    #   print(element)
       if  element != 'NA':
          for idx in element:
             baselinelst.append(idx['value'])
    return baselinelst
 
-pd.set_option('display.max_columns', None)
+# pd.set_option('display.max_columns', None)
+
+
+global logger
+logger = setup_logger()
+logger.info("=======================================")
+logger.info("Script start accumulating data from JIRA")
+
+
+
+filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/SOLE/'
+# filepath='./output/'
+
+
+datestr = ""
 
 issueLists = [
               {'issueType':"Portfolio Initiative",'cond_flg':False},
