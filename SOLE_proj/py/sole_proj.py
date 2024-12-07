@@ -11,30 +11,6 @@ base_url = 'https://jira.footlocker.com/rest/api/2/search'
 
 
 
-def setup_logger( level=logging.INFO):
-    """Configures a logger and returns it."""
-
-    # if not os.path.exists('./log'):
-    #     os.makedirs('./log')
-
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-
-    # handler = logging.FileHandler('./log/soleProj.log')
-    handler = logging.StreamHandler()
-    handler.setFormatter(formatter)
-   
-    logger = logging.getLogger()
-    logger.setLevel(level)
-    
-    if (logger.hasHandlers()):
-        logger.handlers.clear()
-
-    logger.addHandler(handler)
-   
-
-    return logger
-
-
 def get_report(base_url):
     logger.info("Getting report results...")
     header_gs = {'Accept': 'application/json'}
@@ -53,6 +29,7 @@ def get_report(base_url):
             logger.error("HTTP %i - %s" % (r.status_code, r.reason))
             continue
     return None
+
 
 def getDataSet(query):
     pd_obj = None
@@ -78,6 +55,7 @@ def getDataSet(query):
     return df
     
 
+
 def getUrlDataSet(url):
     pd_obj = None
 
@@ -88,6 +66,30 @@ def getUrlDataSet(url):
     return pd_obj
 
 
+def setup_logger( level=logging.INFO):
+    """Configures a logger and returns it."""
+
+    # if not os.path.exists('./log'):
+    #     os.makedirs('./log')
+
+    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
+
+    # handler = logging.FileHandler('./log/soleProj.log')
+    handler = logging.StreamHandler()
+    handler.setFormatter(formatter)
+   
+    logger = logging.getLogger()
+    logger.setLevel(level)
+    
+    if (logger.hasHandlers()):
+        logger.handlers.clear()
+
+    logger.addHandler(handler)
+   
+
+    return logger
+
+
 
 def sprintvalue(x,field):
     if(len(x)!=0):
@@ -95,11 +97,13 @@ def sprintvalue(x,field):
     else:
      return 'NA'
 
+
 def keyvalue(x,field):
     if(len(x)!=0):
       return x[0][field]
     else:
      return 'NA'
+
 
 
 
@@ -112,6 +116,15 @@ def convert_to_key_value(string):
             key, value = pair.split('=')  # Split each pair by '='
             result[key.strip()] = value.strip()  # Add to dictionary, stripping whitespace
     return result
+
+
+
+
+filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/SOLE/'
+# filepath='./output/'
+
+
+datestr = ""
 
 g_Df = pd.DataFrame (columns=['key','FixVersion', 
  'Priority',
@@ -169,6 +182,12 @@ g_Df = pd.DataFrame (columns=['key','FixVersion',
  ])
 
 
+
+
+global logger
+logger = setup_logger()
+logger.info("=======================================")
+logger.info("Script start accumulating data from JIRA")
 
 
 def data_clean(dataframe):
@@ -261,6 +280,7 @@ def data_clean(dataframe):
     return dataframe
 
 
+
 def fetch(issueType, project):
     global fetch_df 
     logger.info(f"Fetch {issueType}...")
@@ -281,46 +301,22 @@ def fetch(issueType, project):
     
     return data_clean(fetch_df)    
     
-def getBaselineLst(element):
-   baselinelst =[]
-   if element != None:
-    #   print(element)
-      if  element != 'NA':
-         for idx in element:
-            baselinelst.append(idx['value'])
-   return baselinelst
 
-# pd.set_option('display.max_columns', None)
-
-
-global logger
-logger = setup_logger()
-logger.info("=======================================")
-logger.info("Script start accumulating data from JIRA")
-
-
-
-filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/SOLE/'
-# filepath='./output/'
-
-
-datestr = ""
 
 issueLists = [
-              {'issueType':"Portfolio Initiative",'cond_flg':False},
-              {'issueType':"Product Initiative", 'cond_flg':False},
-              {'issueType':"Epic", 'cond_flg':False},
-              {'issueType':"Story", 'cond_flg':False},
-              {'issueType':"Task", 'cond_flg':False},
-              {'issueType':"Sub-task", 'cond_flg':False},
-              {'issueType':"Bug", 'cond_flg':False},
-              {'issueType':"Incident", 'cond_flg':False},
-              {'issueType':"Production Defects", 'cond_flg':False},
-              {'issueType':"Defect", 'cond_flg':False},
-              {'issueType':"Issue", 'cond_flg':False},
-              {'issueType':"Test", 'cond_flg':False}
+              {'issueType':"Portfolio Initiative"},
+              {'issueType':"Product Initiative"},
+              {'issueType':"Epic"},
+              {'issueType':"Story"},
+              {'issueType':"Task"},
+              {'issueType':"Sub-task"},
+              {'issueType':"Bug"},
+              {'issueType':"Incident"},
+              {'issueType':"Production Defects"},
+              {'issueType':"Defect"},
+              {'issueType':"Issue"},
+              {'issueType':"Test"}
              ]
-             
 projects =["SOLEFIN", "SOLMerch"]
 # projects =["SOLEFIN"]
 for project in projects:
@@ -328,6 +324,13 @@ for project in projects:
         df=fetch(issueList['issueType'], project)
         if df is not None and not df.empty:
             g_Df = pd.concat([g_Df, df ], ignore_index=True)
+    
+
+
+# pd.set_option('display.max_columns', None)
+# pd.set_option('display.max_rows', 500)
+
+
 
 g_Df['Sprint'] = g_Df['Sprint'].apply(lambda x: convert_to_key_value(x))
 
@@ -344,6 +347,14 @@ g_Df= g_Df.drop(columns=['Sprint'])
 g_Df['FixVersion']= g_Df['FixVersion'].apply(lambda x: keyvalue(x,'name') if x is not None else "" )
 
 
+def getBaselineLst(element):
+   baselinelst =[]
+   if element != None:
+      if  element != 'NA':
+         for idx in element:
+            baselinelst.append(idx['value'])
+   return baselinelst
+
 
 g_Df=g_Df.fillna("NA")
 g_Df['Baseline Scope']=g_Df['Baseline Scope'].apply(lambda x: getBaselineLst(x) )
@@ -351,7 +362,9 @@ g_Df['Intial SOW']= g_Df['Baseline Scope'].apply(lambda x: {True:'YES',False:'NO
 g_Df['After Global Design']= g_Df['Baseline Scope'].apply(lambda x: {True:'YES',False:'NO'}[x.__contains__('Baseline 2')] )
 g_Df['The Rudy Special']= g_Df['Baseline Scope'].apply(lambda x: {True:'YES',False:'NO'}[x.__contains__('Baseline 3')] )
 
-g_Df[g_Df['Intial SOW']=='YES'][['Intial SOW','After Global Design','The Rudy Special','Baseline Scope']]
+
+# g_Df[g_Df['Intial SOW']=='YES'][['Intial SOW','After Global Design','The Rudy Special','Baseline Scope']]
+
 
 logger.info("Upload file to sharepoint...")
 
@@ -371,3 +384,4 @@ except Exception as e:
 
 logger.info("Files uploaded")
 logger.info("Script ended accumulating data from JIRA")
+logger.info("=======================================")
