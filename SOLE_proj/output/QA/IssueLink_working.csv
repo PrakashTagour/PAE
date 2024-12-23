@@ -1,0 +1,1763 @@
+key,IssueLinkKey,status,priority,issuetype,inward,outward,projectName,TypeName,direction
+SOLMERCH-4878,SOLMERCH-4876,To Do,Highest,Epic,Depends On,Depends On,SOLE Merch,Depends On,outward
+SOLMERCH-4876,SOLMERCH-4878,To Do,High,Epic,Depends On,Depends On,SOLE Merch,Depends On,inward
+SOLMERCH-4567,SOLMERCH-94,In Progress,Medium,Portfolio Initiative,Is Child of,Is Parent of,SOLE Merch,Parent / Child ,inward
+SOLMERCH-3021,SOLMERCH-94,In Progress,Medium,Portfolio Initiative,Is Child of,Is Parent of,SOLE Merch,Parent / Child ,inward
+SOLMERCH-3021,DOM-1632,Ready for QA,High,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-2976,SPIM-6692,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-2976,SPIM-6693,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-2976,SPIM-6694,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-1120,DOM-599,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-1084,DOM-494,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-1078,DOM-789,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-256,MERCH-1124,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-256,MERCH-1125,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-256,MERCH-1126,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-254,DOM-226,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-250,SPIM-6696,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-250,SPIM-6697,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-250,SPIM-6698,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-248,SNB-3158,Done,Highest,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-247,MERCH-1110,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-247,MERCH-1117,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-247,MERCH-1119,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-243,SNB-3159,Done,Highest,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-242,DOM-226,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-240,SPIM-6696,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-240,SPIM-6697,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-240,SPIM-6698,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-238,SNB-3160,Done,Highest,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-235,MERCH-1110,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-235,MERCH-1117,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-235,MERCH-1119,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-234,SPIM-7927,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-233,SPIM-6526,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-233,SPIM-6525,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-233,SPIM-6527,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-232,SPIM-7928,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-231,SPIM-6643,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-231,SPIM-6645,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-231,SPIM-6644,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-230,DOM-226,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-227,SPIM-6635,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-227,SPIM-6636,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-227,SPIM-6638,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-226,QAS-1628,In QA,Medium,Enhancement,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-226,QAS-1636,In QA,Medium,Enhancement,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-226,QAS-1637,In QA,Medium,Enhancement,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-223,DOM-738,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-223,DOM-747,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-220,SPIM-6689,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-220,SPIM-6690,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-220,SPIM-6691,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-216,SCM-6619,Ready for QA,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-215,DOM-275,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-215,DOM-280,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-215,DOM-290,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-214,MERCH-1102,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-214,MERCH-1118,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-214,MERCH-1120,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-213,SNB-3155,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-213,SNB-3156,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-213,SNB-3157,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-213,SNB-3153,To Do,Medium,Epic,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-211,SCM-6619,Ready for QA,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-210,DOM-275,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-210,DOM-280,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-210,DOM-290,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-209,MERCH-1102,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-209,MERCH-1118,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-209,MERCH-1120,In Progress,Medium,Merch Pricing,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-206,SPIM-6700,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-191,SPIM-6699,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-186,SOLMERCH-3061,Backlog,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-181,SOLMERCH-3062,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-181,SOLMERCH-3069,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-181,SOLMERCH-3070,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-181,SOLMERCH-3071,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-181,SOLMERCH-3072,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-181,SOLMERCH-3076,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-181,SOLMERCH-3077,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-180,SOLMERCH-3060,To Do,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4578,SOLMERCH-3908,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3530,SOLMERCH-2881,In Progress,Medium,Story,Is Child of,Is Parent of,SOLE Merch,Parent / Child ,inward
+SOLMERCH-4886,SOLMERCH-3596,To Do,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4885,SOLMERCH-3573,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4879,SOLMERCH-3782,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4875,SOLMERCH-4625,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4874,SOLMERCH-3593,To Do,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4873,SOLMERCH-3458,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4870,SOLMERCH-3685,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4870,SOLMERCH-3426,On Hold,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4870,SOLMERCH-3685,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4868,SOLMERCH-3656,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4868,SOLMERCH-3656,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4866,SOLMERCH-3593,To Do,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4862,SOLMERCH-3572,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4861,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4861,SPIM-10789,Blocked,Medium,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,outward
+SOLMERCH-4860,SOLMERCH-4624,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4859,SOLMERCH-4832,Done,High,Bug,is cloned by,clones,SOLE Merch,Cloners,outward
+SOLMERCH-4858,SOLMERCH-3770,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4858,SOLMERCH-3770,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4856,SOLMERCH-3556,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4845,SOLMERCH-3457,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4845,SOLMERCH-4831,Done,Highest,Bug,is cloned by,clones,SOLE Merch,Cloners,outward
+SOLMERCH-4832,SOLMERCH-3662,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4832,SOLMERCH-4859,Done,High,Bug,is cloned by,clones,SOLE Merch,Cloners,inward
+SOLMERCH-4832,DOM-1598,Done,High,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,inward
+SOLMERCH-4832,SOLMERCH-3662,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4831,SOLMERCH-3457,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4831,SOLMERCH-4825,Done,Highest,Bug,is cloned by,clones,SOLE Merch,Cloners,outward
+SOLMERCH-4831,SOLMERCH-4845,Done,Highest,Bug,is cloned by,clones,SOLE Merch,Cloners,inward
+SOLMERCH-4827,SOLMERCH-4624,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4826,SOLMERCH-3568,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4825,SOLMERCH-3457,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4825,SOLMERCH-4831,Done,Highest,Bug,is cloned by,clones,SOLE Merch,Cloners,inward
+SOLMERCH-4824,SOLMERCH-3635,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4824,SOLMERCH-3693,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4824,SOLMERCH-3635,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4822,SOLMERCH-3568,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4793,SOLMERCH-3564,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4793,SOLMERCH-4646,Done,High,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4793,SOLMERCH-3564,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4792,SOLMERCH-3631,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4792,SOLMERCH-3635,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4792,SOLMERCH-3635,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4741,SOLMERCH-4624,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4734,SOLMERCH-3663,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4734,SOLMERCH-4523,Done,Highest,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4734,SOLMERCH-3663,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4730,SOLMERCH-3786,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4729,SOLMERCH-3775,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4723,SPIM-10352,Blocked,Medium,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,outward
+SOLMERCH-4723,SPIM-10319,Done,Medium,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,inward
+SOLMERCH-4722,SPIM-10120,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4722,SPIM-10318,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4722,SPIM-10318,Done,High,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,outward
+SOLMERCH-4722,SOLMERCH-3760,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4721,SOLMERCH-3539,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4721,SPIM-9904,To Do,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4719,SOLMERCH-4521,Done,Highest,Bug,is caused by,causes,SOLE Merch,Causes,inward
+SOLMERCH-4719,SOLMERCH-4523,Done,Highest,Bug,is caused by,causes,SOLE Merch,Causes,inward
+SOLMERCH-4718,SOLMERCH-4521,Done,Highest,Bug,is caused by,causes,SOLE Merch,Causes,inward
+SOLMERCH-4718,SOLMERCH-4523,Done,Highest,Bug,is caused by,causes,SOLE Merch,Causes,inward
+SOLMERCH-4717,SOLMERCH-4647,Done,Highest,Bug,is cloned by,clones,SOLE Merch,Cloners,outward
+SOLMERCH-4716,SOLMERCH-3760,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4715,SOLMERCH-3823,Approved,Medium,Test,is duplicated by,duplicates,SOLE Merch,Duplicate,outward
+SOLMERCH-4715,SOLMERCH-3957,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4714,SOLMERCH-3769,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4713,MERCH-1151,Done,Medium,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,outward
+SOLMERCH-4710,SOLMERCH-3759,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4709,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4708,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4707,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4705,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4705,SOLMERCH-3432,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4705,SPIM-10220,Done,Highest,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4704,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4703,SOLMERCH-3810,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4702,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4701,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4700,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4699,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4698,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4697,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4697,SPIM-10187,Done,Medium,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,inward
+SOLMERCH-4696,SOLMERCH-3627,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4696,SOLMERCH-3627,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4652,SOLMERCH-3770,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4652,SOLMERCH-4642,Done,Medium,Bug,is cloned by,clones,SOLE Merch,Cloners,outward
+SOLMERCH-4647,DOM-879,In Progress,Medium,Epic,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4647,SOLMERCH-3781,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4647,SOLMERCH-4717,Done,High,Bug,is cloned by,clones,SOLE Merch,Cloners,inward
+SOLMERCH-4646,SOLMERCH-3564,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4646,SOLMERCH-3566,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4646,SOLMERCH-3567,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4646,SOLMERCH-4793,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4645,SOLMERCH-4441,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4644,SOLMERCH-4438,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4643,SPIM-10120,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4643,SOLMERCH-3759,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4643,SPIM-10629,Done,High,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4642,SOLMERCH-4652,Done,Medium,Bug,is cloned by,clones,SOLE Merch,Cloners,inward
+SOLMERCH-4642,SOLMERCH-3771,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4641,SOLMERCH-3536,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4640,SOLMERCH-3432,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4639,SOLMERCH-4635,In Progress,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4639,SOLMERCH-3898,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4638,SOLMERCH-3949,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4638,SOLMERCH-3944,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4637,MERCH-1152,Done,Medium,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,inward
+SOLMERCH-4637,SOLMERCH-3814,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4637,SOLMERCH-3812,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4636,SOLMERCH-3885,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4636,SOLMERCH-3886,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4636,SOLMERCH-3887,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4636,SOLMERCH-3888,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4636,SOLMERCH-3889,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4636,SOLMERCH-3890,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4636,SPIM-9954,Done,Highest,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4635,SOLMERCH-4526,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4635,SOLMERCH-4583,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4635,SOLMERCH-4639,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4635,SOLMERCH-3898,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4630,SOLMERCH-3464,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4628,SOLMERCH-3464,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4584,SOLMERCH-3580,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4583,SOLMERCH-4635,In Progress,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4583,SOLMERCH-3894,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4580,SOLMERCH-3731,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4579,SOLMERCH-3464,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4573,SOLMERCH-4420,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4572,SOLMERCH-3632,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4572,SOLMERCH-3633,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4572,SOLMERCH-3634,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4571,SOLMERCH-3580,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4571,SOLMERCH-3580,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4570,SOLMERCH-3884,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4568,SOLMERCH-3943,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4565,SOLMERCH-3627,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4565,SOLMERCH-4521,Done,Highest,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,inward
+SOLMERCH-4565,HAPS-2909,To Do,Medium,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4564,SOLMERCH-3628,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4564,SOLMERCH-3629,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4564,SOLMERCH-3630,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4564,SOLMERCH-3628,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4563,SOLMERCH-3488,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4562,SOLMERCH-3950,In Progress,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4562,SOLMERCH-3816,In Progress,Medium,Test,is duplicated by,duplicates,SOLE Merch,Duplicate,outward
+SOLMERCH-4562,SOLMERCH-3943,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4562,SOLMERCH-3950,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4562,SOLMERCH-3809,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4530,SOLMERCH-3588,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4530,SPIM-9912,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4529,SOLMERCH-3564,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4527,SOLMERCH-3579,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4526,SOLMERCH-3894,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4526,SOLMERCH-4635,In Progress,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4526,SOLMERCH-4450,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4525,SOLMERCH-3877,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4525,SPIM-8471,To Do,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4525,SPIM-9889,To Do,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4524,SOLMERCH-3564,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4523,SOLMERCH-3662,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4523,SOLMERCH-3663,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4523,SOLMERCH-3664,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4523,SOLMERCH-3665,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4523,SOLMERCH-3693,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4523,SOLMERCH-3694,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4523,SOLMERCH-3695,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4523,SOLMERCH-3696,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4523,SOLMERCH-4718,Done,High,Bug,is caused by,causes,SOLE Merch,Causes,outward
+SOLMERCH-4523,SOLMERCH-4719,Done,High,Bug,is caused by,causes,SOLE Merch,Causes,outward
+SOLMERCH-4523,SOLMERCH-3635,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4523,SOLMERCH-4734,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4521,SOLMERCH-3631,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3686,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3687,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3688,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3689,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3690,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3691,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3692,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3654,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3655,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3656,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3657,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3658,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3659,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3660,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3661,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-3685,On Hold,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4521,SOLMERCH-4718,Done,High,Bug,is caused by,causes,SOLE Merch,Causes,outward
+SOLMERCH-4521,SOLMERCH-4719,Done,High,Bug,is caused by,causes,SOLE Merch,Causes,outward
+SOLMERCH-4521,SOLMERCH-4565,On Hold,Medium,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,outward
+SOLMERCH-4521,SOLMERCH-3627,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4520,SOLMERCH-3485,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4519,SOLMERCH-3875,Done,Medium,Test,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4518,SOLMERCH-3959,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3341,SOLMERCH-1739,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3307,SOLMERCH-1737,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3307,SOLMERCH-1738,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3307,SOLMERCH-1743,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3279,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3278,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3277,SOLMERCH-1734,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3276,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3275,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3274,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3273,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3272,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3271,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3269,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3154,SOLMERCH-1739,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3148,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3147,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3146,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3145,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3078,SOLMERCH-391,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3077,SOLMERCH-181,To Do,Medium,Epic,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3076,SOLMERCH-181,To Do,Medium,Epic,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3076,SOLMERCH-1723,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3075,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3073,SOLMERCH-1727,In Progress,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3072,SOLMERCH-181,To Do,Medium,Epic,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3072,SOLMERCH-1723,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3072,SOLMERCH-1725,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3071,SOLMERCH-181,To Do,Medium,Epic,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3071,SOLMERCH-1723,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3070,SOLMERCH-181,To Do,Medium,Epic,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3070,SOLMERCH-1723,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3069,SOLMERCH-181,To Do,Medium,Epic,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3069,SOLMERCH-1723,Done,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3068,SOLMERCH-1727,In Progress,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3067,SOLMERCH-1727,In Progress,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3066,SOLMERCH-1730,In Progress,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3062,SOLMERCH-181,To Do,Medium,Epic,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3061,SOLMERCH-186,To Do,Medium,Epic,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3060,SOLMERCH-180,To Do,Medium,Epic,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3059,SOLMERCH-1721,In Progress,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3058,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3057,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3056,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3055,SOLMERCH-1731,To Do,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3054,SOLMERCH-1727,In Progress,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3053,SOLMERCH-1728,In Progress,Medium,Story,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-4738,SOLMERCH-3426,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4737,SOLMERCH-3422,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4736,SOLMERCH-3422,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4735,SOLMERCH-3422,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4732,SOLMERCH-588,Approved,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-624,Approved,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-678,Approved,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-687,Approved,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-723,Approved,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-732,Approved,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-751,Approved,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-858,Approved,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-904,Approved,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-994,Approved,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-2513,Approved,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-1029,Closed - Not Doing,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-2989,Closed - Not Doing,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-301,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-318,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-570,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-598,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-633,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-642,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-661,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-705,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-768,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-777,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-787,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-823,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-831,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-840,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-850,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-886,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-966,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-976,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-1047,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-2998,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-930,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-670,Needs Approval,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-273,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-282,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-291,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-309,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-327,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-580,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-615,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-895,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-921,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-940,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-984,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-1039,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-1825,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-1848,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-2526,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-2539,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-2552,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-3207,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-3290,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-3300,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-3331,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-4516,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-4540,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-4550,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4732,SOLMERCH-4559,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4726,SOLMERCH-4577,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4634,SOLMERCH-4576,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4633,SOLMERCH-4575,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4632,SOLMERCH-4574,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4631,SOLMERCH-4569,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4627,SOLMERCH-3448,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4626,SOLMERCH-3448,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4625,SOLMERCH-4875,In Progress,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4625,SOLMERCH-3448,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4624,SOLMERCH-4741,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4624,SOLMERCH-4860,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4624,SOLMERCH-4827,In Progress,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-4624,SOLMERCH-3448,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4623,SOLMERCH-3448,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4622,SOLMERCH-3448,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4621,SOLMERCH-3448,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4500,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4499,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4498,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4497,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4496,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4495,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4494,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4493,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4492,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4491,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4490,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4489,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4488,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4487,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4486,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4485,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4484,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4483,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4482,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4481,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4480,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4479,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4478,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4477,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4476,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4475,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4474,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4473,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4472,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4471,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4470,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4469,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4468,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4467,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4466,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4465,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4464,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4463,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4462,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4461,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4460,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4459,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4458,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4457,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4456,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4455,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4454,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4453,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4452,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4451,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4450,SOLMERCH-4526,Done,Highest,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4450,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4449,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4448,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4447,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4446,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4445,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4444,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4443,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4442,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4441,SOLMERCH-4645,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4441,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4440,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4439,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4438,SOLMERCH-4644,To Do,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4438,SOLMERCH-3444,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4437,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4436,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4435,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4434,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4433,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4432,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4431,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4430,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4429,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4428,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4427,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4425,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4424,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4422,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4421,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4420,SOLMERCH-4573,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4420,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4419,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4418,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4417,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4416,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4415,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4414,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4413,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4412,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4410,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4409,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4144,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4143,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4142,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4141,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4140,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4139,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4138,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4137,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4136,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4135,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4134,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4133,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4132,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4131,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4130,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4129,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4128,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4127,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4126,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4125,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4124,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4123,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4122,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4121,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4120,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4119,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4118,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4117,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4116,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4115,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4114,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4098,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4097,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4096,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4095,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4094,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4093,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4092,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4091,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4090,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4089,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4088,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4087,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4086,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4085,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4084,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4083,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4082,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4081,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4080,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4051,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4050,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4037,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4036,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4023,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4022,SOLMERCH-3447,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4010,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4009,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4008,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4007,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4006,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4005,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4004,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4003,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4002,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4001,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4000,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3999,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3998,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3997,SOLMERCH-3446,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3993,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3992,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3991,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3990,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3989,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3988,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3987,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3986,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3985,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3984,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3983,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3982,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3981,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3979,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3978,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3977,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3976,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3975,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3974,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3973,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3972,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3971,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3970,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3969,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3968,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3967,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3966,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3965,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3964,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3963,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3961,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3960,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3959,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3959,SOLMERCH-4518,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3958,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3957,SOLMERCH-4715,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3957,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3956,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3955,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3954,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3953,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3952,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3951,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3950,SOLMERCH-4562,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3950,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3950,SOLMERCH-4562,Done,High,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3949,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3949,SOLMERCH-4638,On Hold,Low,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3948,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3947,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3946,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3944,SOLMERCH-4638,On Hold,Low,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3944,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3943,SOLMERCH-4562,Done,High,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3943,SOLMERCH-4568,Done,High,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3943,SOLMERCH-3443,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3941,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3940,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3939,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3938,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3937,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3936,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3935,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3934,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3933,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3932,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3931,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3930,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3929,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3928,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3927,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3926,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3925,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3924,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3923,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3922,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3921,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3920,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3919,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3918,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3917,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3916,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3915,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3914,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3913,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3912,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3911,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3910,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3909,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3908,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3908,SOLMERCH-4578,Done,Highest,Task,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3907,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3906,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3905,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3904,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3903,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3902,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3901,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3900,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3899,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3898,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3898,SOLMERCH-4639,Done,Highest,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3898,SOLMERCH-4635,In Progress,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3897,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3895,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3894,SOLMERCH-4526,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3894,SOLMERCH-4583,Done,Highest,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3894,SOLMERCH-3442,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3892,SOLMERCH-3439,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3891,SOLMERCH-3439,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3890,SOLMERCH-4636,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3890,SOLMERCH-3439,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3889,SOLMERCH-4636,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3889,SOLMERCH-3439,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3888,SOLMERCH-4636,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3888,SOLMERCH-3439,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3887,SOLMERCH-4636,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3887,SOLMERCH-3439,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3886,SOLMERCH-4636,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3886,SOLMERCH-3439,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3885,SOLMERCH-4636,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3885,SOLMERCH-3439,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3884,SOLMERCH-4570,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3884,SOLMERCH-3438,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3883,SOLMERCH-3438,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3882,SOLMERCH-3438,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3881,SOLMERCH-3438,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3880,SOLMERCH-3438,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3879,SOLMERCH-3438,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3878,SOLMERCH-3438,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3877,SOLMERCH-4525,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3877,SOLMERCH-3438,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3876,SOLMERCH-3438,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3875,SOLMERCH-4519,Ready For Approval,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3875,SOLMERCH-3438,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3873,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3872,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3871,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3870,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3869,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3868,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3867,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3866,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3865,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3864,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3863,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3862,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3860,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3859,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3858,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3857,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3856,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3855,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3854,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3853,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3852,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3851,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3850,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3849,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3848,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3847,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3846,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3845,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3843,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3842,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3841,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3823,SOLMERCH-4715,Done,Medium,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,inward
+SOLMERCH-3823,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3822,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3821,MERCH-1156,To Do,Medium,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3821,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3820,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3819,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3818,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3817,MERCH-1156,To Do,Medium,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3817,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3816,SOLMERCH-4562,Done,High,Bug,is duplicated by,duplicates,SOLE Merch,Duplicate,inward
+SOLMERCH-3816,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3815,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3814,SOLMERCH-4637,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3814,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3813,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3812,SOLMERCH-4637,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3812,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3810,SOLMERCH-4703,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3810,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3809,SOLMERCH-4562,Done,High,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3809,SOLMERCH-3440,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3791,SOLMERCH-3431,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3790,SOLMERCH-3431,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3789,SOLMERCH-3431,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3788,SOLMERCH-3431,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3787,SOLMERCH-3431,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3786,SOLMERCH-4730,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3786,SOLMERCH-3431,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3785,SOLMERCH-3431,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3784,SOLMERCH-3431,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3783,SOLMERCH-3431,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3782,SOLMERCH-4879,Ready For Approval,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3782,SOLMERCH-3431,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3781,SOLMERCH-4647,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3781,SOLMERCH-3431,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3780,SOLMERCH-3430,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3779,SOLMERCH-3430,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3778,SOLMERCH-3430,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3777,SOLMERCH-3430,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3776,SOLMERCH-3430,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3775,SOLMERCH-4729,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3775,SOLMERCH-3430,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3774,SOLMERCH-3430,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3773,SOLMERCH-3430,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3772,SOLMERCH-3430,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3771,SOLMERCH-4642,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3771,SOLMERCH-3430,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3770,SOLMERCH-4652,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3770,SOLMERCH-4858,To Do,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3770,SOLMERCH-4858,To Do,High,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3770,SOLMERCH-3430,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3769,SOLMERCH-4714,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3769,SOLMERCH-3429,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3768,SOLMERCH-3429,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3767,SPIM-10740,Blocked,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3767,SOLMERCH-3429,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3766,SOLMERCH-3429,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3765,SOLMERCH-3429,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3764,SOLMERCH-3429,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3763,SOLMERCH-3429,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3762,SOLMERCH-3429,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3761,SOLMERCH-3429,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3760,SOLMERCH-4722,Done,High,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3760,SOLMERCH-4716,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3760,SOLMERCH-3429,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3759,SOLMERCH-4643,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3759,SOLMERCH-4710,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3759,SOLMERCH-3429,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3758,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3757,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3743,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3742,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3741,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3740,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3739,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3738,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3737,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3736,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3735,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3734,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3733,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3732,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3731,SOLMERCH-4580,Done,Highest,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3731,SOLMERCH-3428,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3730,SOLMERCH-3427,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3729,SOLMERCH-3427,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3728,SOLMERCH-3427,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3727,SOLMERCH-3427,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3726,SOLMERCH-3427,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3725,SOLMERCH-3427,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3724,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3723,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3722,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3721,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3720,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3719,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3718,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3717,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3716,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3715,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3714,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3713,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3712,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3711,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3710,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3709,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3708,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3707,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3706,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3705,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3704,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3703,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3702,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3701,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3700,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3699,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3698,SOLMERCH-3423,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3696,SOLMERCH-4523,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3696,SOLMERCH-3426,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3695,SOLMERCH-4523,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3695,SOLMERCH-3426,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3694,SOLMERCH-4523,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3694,SOLMERCH-3426,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3693,SOLMERCH-4523,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3693,SOLMERCH-4824,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3693,SOLMERCH-3426,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3692,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3692,SOLMERCH-3422,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3691,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3691,SOLMERCH-3422,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3690,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3690,SOLMERCH-3422,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3689,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3689,SOLMERCH-3422,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3688,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3688,SOLMERCH-3422,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3687,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3687,SOLMERCH-3422,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3686,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3686,SOLMERCH-3422,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3685,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3685,SOLMERCH-4870,To Do,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3685,SOLMERCH-4870,To Do,High,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3685,SOLMERCH-3422,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3684,SOLMERCH-3436,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3683,SOLMERCH-3436,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3682,SOLMERCH-3436,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3681,SOLMERCH-3436,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3680,SPIM-10631,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3680,SOLMERCH-3436,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3666,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3665,SOLMERCH-4523,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3665,SOLMERCH-3425,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3664,SOLMERCH-4523,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3664,SOLMERCH-3425,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3663,SOLMERCH-4523,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3663,SOLMERCH-4734,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3663,SOLMERCH-4734,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3663,SOLMERCH-3425,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3662,SOLMERCH-4523,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3662,SOLMERCH-4832,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3662,SOLMERCH-4832,Done,High,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3662,SOLMERCH-3425,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3661,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3661,SOLMERCH-3421,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3660,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3660,SOLMERCH-3421,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3659,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3659,SOLMERCH-3421,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3658,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3658,SOLMERCH-3421,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3657,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3657,SOLMERCH-3421,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3656,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3656,SOLMERCH-4868,In Progress,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3656,SOLMERCH-4868,In Progress,High,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3656,SOLMERCH-3421,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3655,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3655,SOLMERCH-3421,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3654,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3654,SOLMERCH-3421,On Hold,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3653,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3652,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3651,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3650,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3649,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3648,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3647,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3646,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3645,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3644,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3643,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3642,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3641,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3640,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3639,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3638,SOLMERCH-3424,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3637,SOLMERCH-3424,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3636,SOLMERCH-3424,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3635,SOLMERCH-4824,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3635,SOLMERCH-4792,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3635,SOLMERCH-4523,Done,Highest,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3635,SOLMERCH-4824,Done,Highest,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3635,SOLMERCH-4792,Done,High,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3635,SOLMERCH-3424,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3634,SOLMERCH-4572,Done,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3634,SOLMERCH-3420,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3633,SOLMERCH-4572,Done,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3633,SOLMERCH-3420,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3632,SOLMERCH-4572,Done,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3632,SOLMERCH-3420,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3631,SOLMERCH-4521,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3631,SOLMERCH-4792,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3631,SOLMERCH-3420,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3630,SOLMERCH-4564,Done,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3630,SOLMERCH-3420,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3629,SOLMERCH-4564,Done,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3629,SOLMERCH-3420,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3628,SOLMERCH-4564,Done,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3628,SOLMERCH-4564,Done,Low,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3628,SOLMERCH-3420,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3627,SOLMERCH-4696,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3627,SOLMERCH-4565,On Hold,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3627,SOLMERCH-4521,Done,Highest,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3627,SOLMERCH-4696,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3627,SOLMERCH-3420,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3626,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3625,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3624,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3623,MERCH-1153,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3623,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3622,MERCH-1152,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3622,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3621,MERCH-1156,To Do,Medium,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3621,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3620,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3619,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3618,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3617,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3616,MERCH-1151,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3616,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3614,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3613,MERCH-1157,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3613,MERCH-1151,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3613,SOLMERCH-3445,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3596,SOLMERCH-4886,To Do,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3596,SOLMERCH-3433,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3595,SOLMERCH-3433,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3594,SOLMERCH-3433,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3593,SOLMERCH-4866,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3593,SOLMERCH-4874,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3593,SOLMERCH-3433,To Do,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3590,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3589,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3588,SOLMERCH-4530,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3588,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3587,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3586,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3585,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3584,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3583,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3582,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3581,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3580,SPIM-10028,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3580,SOLMERCH-4571,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3580,SOLMERCH-4571,Done,Highest,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3580,SOLMERCH-4584,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3580,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3579,SOLMERCH-4527,Done,High,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3579,SOLMERCH-3419,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3578,SOLMERCH-3441,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3577,SOLMERCH-3441,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3576,SOLMERCH-3441,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3575,SOLMERCH-3441,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3574,SOLMERCH-3441,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3573,SOLMERCH-4885,To Do,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3573,SOLMERCH-3441,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3572,SOLMERCH-4862,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3572,SOLMERCH-3441,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3571,SOLMERCH-3441,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3570,SOLMERCH-3441,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3569,SOLMERCH-3441,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3568,SOLMERCH-4822,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3568,SOLMERCH-4826,In Progress,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3568,SOLMERCH-3441,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3567,SOLMERCH-4646,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3567,SOLMERCH-3418,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3566,SOLMERCH-4646,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3566,SOLMERCH-3418,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3565,SOLMERCH-3418,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3564,SOLMERCH-4646,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3564,SOLMERCH-4524,Done,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3564,SOLMERCH-4793,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3564,SOLMERCH-4793,Done,Medium,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3564,SOLMERCH-4529,Done,Low,Bug,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3564,SOLMERCH-3418,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3563,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3562,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3561,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3560,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3559,SPIM-10594,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3559,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3558,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3557,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3556,SPIM-10594,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3556,SOLMERCH-4856,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3556,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3555,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3554,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3553,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3552,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3551,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3550,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3549,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3548,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3547,SPIM-10594,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3547,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3546,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3545,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3544,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3543,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3542,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3541,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3540,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3539,SOLMERCH-4721,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3539,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3538,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3537,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3536,SPIM-10789,Blocked,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4705,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4697,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4699,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4701,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4707,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4709,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4708,Done,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4641,On Hold,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4861,On Hold,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4698,On Hold,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4700,On Hold,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4702,On Hold,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-4704,On Hold,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3536,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3535,SOLMERCH-3432,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3490,SOLMERCH-3434,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3489,SOLMERCH-3434,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3488,SOLMERCH-4563,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3488,SOLMERCH-3434,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3487,SOLMERCH-3434,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3486,SOLMERCH-3434,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3485,SOLMERCH-4520,Ready For Approval,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3485,SOLMERCH-3434,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3466,SOLMERCH-3437,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3465,SOLMERCH-3437,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3464,SOLMERCH-4628,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3464,SOLMERCH-4579,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3464,SOLMERCH-4630,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3464,SOLMERCH-3437,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3463,SOLMERCH-3437,Done,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3459,SOLMERCH-3435,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3458,SOLMERCH-4873,To Do,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3458,SOLMERCH-3435,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3457,SOLMERCH-4825,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3457,SOLMERCH-4831,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3457,SOLMERCH-4845,Done,Highest,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3457,SOLMERCH-3435,In Progress,Medium,Story,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4577,SOLMERCH-4726,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4576,SOLMERCH-4634,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4575,SOLMERCH-4633,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4574,SOLMERCH-4632,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4569,SOLMERCH-4631,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-4559,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4550,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4540,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-4516,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3448,SOLMERCH-4623,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3448,SOLMERCH-4624,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3448,SOLMERCH-4621,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3448,SOLMERCH-4622,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3448,SOLMERCH-4625,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3448,SOLMERCH-4626,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3448,SOLMERCH-4627,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4410,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4415,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4421,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4022,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4023,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4036,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4037,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4114,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4115,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4116,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4117,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4118,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4119,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4120,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4121,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4122,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4123,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4124,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4125,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4126,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4127,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4128,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4129,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4130,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4131,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4132,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4133,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4134,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4135,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4136,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4137,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4138,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4139,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4140,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4141,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4142,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4143,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4144,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4412,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4413,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4416,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4417,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4418,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4419,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4422,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4409,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4414,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3447,SOLMERCH-4420,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-3997,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-3998,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-3999,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4000,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4001,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4002,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4003,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4004,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4005,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4006,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4007,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4008,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4009,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4010,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4050,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4051,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4080,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4081,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4082,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4083,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4084,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4085,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4086,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4087,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4088,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4089,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4090,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4091,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4092,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4093,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4094,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4095,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4096,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4097,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4098,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4424,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4425,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4427,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4428,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4429,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4430,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4431,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4432,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4433,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4434,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4435,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4436,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3446,SOLMERCH-4437,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3614,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3616,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3618,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3619,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3621,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3622,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3623,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3624,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3625,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3626,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3639,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3640,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3641,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3642,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3643,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3644,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3645,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3646,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3647,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3648,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3649,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3650,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3651,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3652,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3653,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3666,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3710,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3711,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3712,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3713,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3714,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3715,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3716,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3717,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3718,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3719,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3720,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3721,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3722,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3723,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3724,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3613,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3617,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3445,SOLMERCH-3620,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4459,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4460,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4461,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4462,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4463,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4464,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4465,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4466,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4467,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4468,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4469,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4470,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4471,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4472,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4473,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4474,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4475,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4476,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4477,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4478,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4479,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4480,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4481,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4482,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4483,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4484,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4485,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4486,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4487,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4488,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4489,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4490,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4491,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4492,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4493,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4494,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4495,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4496,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4497,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4498,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4499,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4500,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4438,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4439,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4440,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4441,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4442,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4443,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4444,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4445,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4446,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4447,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4448,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4449,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4450,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4451,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4452,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4453,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4454,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4455,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4456,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4457,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3444,SOLMERCH-4458,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3443,SOLMERCH-3943,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3443,SOLMERCH-3944,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3949,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3957,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3960,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3961,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3963,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3964,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3965,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3966,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3967,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3968,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3969,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3970,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3971,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3972,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3973,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3974,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3975,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3976,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3977,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3978,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3979,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3981,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3982,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3983,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3984,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3985,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3986,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3987,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3988,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3989,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3990,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3991,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3992,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3993,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3946,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3947,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3948,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3958,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3950,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3951,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3952,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3953,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3954,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3955,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3956,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3443,SOLMERCH-3959,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3940,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3442,SOLMERCH-3909,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3910,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3911,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3912,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3913,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3914,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3915,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3916,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3917,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3918,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3919,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3920,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3921,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3922,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3923,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3924,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3925,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3926,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3927,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3928,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3929,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3930,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3931,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3932,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3933,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3934,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3935,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3936,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3937,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3938,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3939,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3941,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3894,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3895,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3897,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3898,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3899,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3900,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3901,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3902,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3903,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3904,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3905,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3906,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3907,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3442,SOLMERCH-3908,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3441,SOLMERCH-3569,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3441,SOLMERCH-3571,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3441,SOLMERCH-3576,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3441,SOLMERCH-3577,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3441,SOLMERCH-3578,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3441,SOLMERCH-3568,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3441,SOLMERCH-3570,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3441,SOLMERCH-3572,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3441,SOLMERCH-3573,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3441,SOLMERCH-3574,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3441,SOLMERCH-3575,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3810,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3812,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3814,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3823,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3819,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3820,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3821,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3841,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3842,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3843,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3845,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3846,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3847,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3848,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3849,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3850,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3851,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3852,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3853,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3854,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3855,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3856,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3857,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3858,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3859,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3860,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3862,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3863,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3864,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3865,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3866,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3867,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3868,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3869,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3870,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3871,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3872,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3873,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3809,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3813,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3815,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3816,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3822,In Progress,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3817,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3440,SOLMERCH-3818,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3439,SOLMERCH-3885,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3439,SOLMERCH-3886,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3439,SOLMERCH-3887,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3439,SOLMERCH-3888,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3439,SOLMERCH-3889,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3439,SOLMERCH-3890,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3439,SOLMERCH-3892,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3439,SOLMERCH-3891,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3438,SOLMERCH-3875,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3438,SOLMERCH-3876,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3438,SOLMERCH-3877,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3438,SOLMERCH-3878,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3438,SOLMERCH-3879,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3438,SOLMERCH-3880,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3438,SOLMERCH-3883,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3438,SOLMERCH-3884,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3438,SOLMERCH-3881,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3438,SOLMERCH-3882,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3437,SOLMERCH-3463,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3437,SOLMERCH-3464,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3437,SOLMERCH-3465,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3437,SOLMERCH-3466,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3436,SOLMERCH-3681,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3436,SOLMERCH-3680,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3436,SOLMERCH-3682,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3436,SOLMERCH-3683,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3436,SOLMERCH-3684,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3435,SOLMERCH-3457,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3435,SOLMERCH-3459,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3435,SOLMERCH-3458,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3434,SOLMERCH-3485,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3434,SOLMERCH-3486,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3434,SOLMERCH-3488,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3434,SOLMERCH-3489,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3434,SOLMERCH-3490,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3434,SOLMERCH-3487,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3433,SOLMERCH-3594,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3433,SOLMERCH-3593,To Do,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3433,SOLMERCH-3595,To Do,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3433,SOLMERCH-3596,To Do,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-4640,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3432,SOLMERCH-4705,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-3432,SOLMERCH-3535,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3537,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3538,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3539,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3540,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3541,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3542,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3543,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3544,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3545,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3546,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3547,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3548,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3549,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3550,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3551,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3552,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3553,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3554,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3555,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3556,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3557,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3558,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3559,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3560,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3561,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3562,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3563,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3432,SOLMERCH-3536,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3431,SOLMERCH-3783,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3431,SOLMERCH-3784,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3431,SOLMERCH-3787,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3431,SOLMERCH-3788,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3431,SOLMERCH-3781,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3431,SOLMERCH-3785,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3431,SOLMERCH-3786,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3431,SOLMERCH-3789,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3431,SOLMERCH-3790,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3431,SOLMERCH-3791,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3431,SOLMERCH-3782,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3430,SOLMERCH-3772,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3430,SOLMERCH-3773,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3430,SOLMERCH-3776,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3430,SOLMERCH-3777,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3430,SOLMERCH-3770,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3430,SOLMERCH-3771,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3430,SOLMERCH-3778,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3430,SOLMERCH-3774,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3430,SOLMERCH-3775,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3430,SOLMERCH-3779,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3430,SOLMERCH-3780,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3429,SOLMERCH-3761,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3429,SOLMERCH-3762,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3429,SOLMERCH-3765,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3429,SOLMERCH-3766,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3429,SOLMERCH-3759,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3429,SOLMERCH-3760,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3429,SOLMERCH-3763,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3429,SOLMERCH-3764,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3429,SOLMERCH-3767,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3429,SOLMERCH-3768,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3429,SOLMERCH-3769,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3731,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3732,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3733,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3734,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3735,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3736,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3737,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3738,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3739,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3740,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3741,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3742,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3743,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3757,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3428,SOLMERCH-3758,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3427,SOLMERCH-3725,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3427,SOLMERCH-3726,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3427,SOLMERCH-3727,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3427,SOLMERCH-3728,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3427,SOLMERCH-3729,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3427,SOLMERCH-3730,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3426,SOLMERCH-4870,To Do,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-3426,SOLMERCH-3693,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3426,SOLMERCH-3694,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3426,SOLMERCH-3695,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3426,SOLMERCH-3696,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3426,SOLMERCH-4738,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3425,SOLMERCH-3662,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3425,SOLMERCH-3663,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3425,SOLMERCH-3664,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3425,SOLMERCH-3665,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3424,SOLMERCH-3635,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3424,SOLMERCH-3636,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3424,SOLMERCH-3637,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3424,SOLMERCH-3638,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3698,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3699,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3700,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3701,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3702,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3703,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3704,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3705,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3706,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3707,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3708,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3423,SOLMERCH-3709,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3422,SOLMERCH-3686,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3422,SOLMERCH-3687,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3422,SOLMERCH-3688,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3422,SOLMERCH-3689,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3422,SOLMERCH-3690,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3422,SOLMERCH-3691,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3422,SOLMERCH-3692,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3422,SOLMERCH-4735,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3422,SOLMERCH-4736,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3422,SOLMERCH-4737,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3422,SOLMERCH-3685,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3421,SOLMERCH-3654,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3421,SOLMERCH-3655,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3421,SOLMERCH-3656,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3421,SOLMERCH-3657,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3421,SOLMERCH-3658,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3421,SOLMERCH-3659,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3421,SOLMERCH-3660,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3421,SOLMERCH-3661,On Hold,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3420,SOLMERCH-3627,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3420,SOLMERCH-3628,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3420,SOLMERCH-3629,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3420,SOLMERCH-3630,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3420,SOLMERCH-3631,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3420,SOLMERCH-3632,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3420,SOLMERCH-3633,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3420,SOLMERCH-3634,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3590,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3579,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3580,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3581,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3582,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3583,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3584,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3585,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3586,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3587,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3588,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3419,SOLMERCH-3589,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3418,SOLMERCH-3565,Approved,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3418,SOLMERCH-3564,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3418,SOLMERCH-3566,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3418,SOLMERCH-3567,Done,Medium,Test,relates to,relates to,SOLE Merch,Relates,outward
+SOLMERCH-3331,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3300,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3290,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3207,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-3004,SPIM-6692,Done,Medium,Story,has to be finished together with,has to be finished together with,SOLE Merch,Gantt End to End,outward
+SOLMERCH-2998,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-2989,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-2881,SOLMERCH-3530,Backlog,Medium,Task,Is Child of,Is Parent of,SOLE Merch,Parent / Child ,outward
+SOLMERCH-2552,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-2539,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-2526,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-2513,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-1848,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-1825,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-1743,SOLMERCH-3307,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1739,SOLMERCH-3154,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1739,SOLMERCH-3341,In Progress,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1738,SOLMERCH-3307,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1737,SOLMERCH-3307,Done,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1734,SOLMERCH-3277,Backlog,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3145,Backlog,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3147,Backlog,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3148,Backlog,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3271,Backlog,High,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3055,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3056,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3057,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3058,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3075,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3146,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3272,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3273,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3274,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3275,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3276,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3278,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3279,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1731,SOLMERCH-3269,Done,Low,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1730,SOLMERCH-3066,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1728,SOLMERCH-3053,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1727,SOLMERCH-3054,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1727,SOLMERCH-3067,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1727,SOLMERCH-3068,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1727,SOLMERCH-3073,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1725,SOLMERCH-3072,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1723,SOLMERCH-3069,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1723,SOLMERCH-3070,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1723,SOLMERCH-3071,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1723,SOLMERCH-3072,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1723,SOLMERCH-3076,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1721,SOLMERCH-3059,Backlog,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-1047,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-1039,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-1029,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-994,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-984,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-976,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-966,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-940,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-930,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-921,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-904,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-895,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-886,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-858,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-850,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-840,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-831,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-823,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-787,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-777,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-768,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-751,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-732,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-723,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-705,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-687,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-678,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-670,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-661,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-642,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-633,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-624,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-615,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-598,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-588,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-580,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-570,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-489,MERCH-1110,In Progress,Medium,Merch Pricing,is blocked by,blocks,SOLE Merch,Blocks,outward
+SOLMERCH-391,SOLMERCH-3078,Done,Medium,Bug,is blocked by,blocks,SOLE Merch,Blocks,inward
+SOLMERCH-327,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-318,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-309,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-301,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-291,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-282,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward
+SOLMERCH-273,SOLMERCH-4732,Backlog,Medium,Test,relates to,relates to,SOLE Merch,Relates,inward

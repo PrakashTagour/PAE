@@ -1,0 +1,3 @@
+key,IssueLinkKey,status,priority,issuetype,inward,outward,projectName,TypeName,direction
+SOLMERCH-94,SOLMERCH-3021,To Do,Medium,Epic,Is Child of,Is Parent of,SOLE Merch,Parent / Child ,outward
+SOLMERCH-94,SOLMERCH-4567,To Do,Medium,Epic,Is Child of,Is Parent of,SOLE Merch,Parent / Child ,outward

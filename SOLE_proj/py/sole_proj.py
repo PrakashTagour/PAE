@@ -122,15 +122,8 @@ def keyvalue(x,field):
     else:
      return 'NA'
 
-
-
-
-
-
-
-
 run_proj = sys.argv[1]
-# run_proj ='SOLE'
+# run_proj ='ALL'
 if run_proj == 'SOLE':
     print('SOLE')
     partitionCnt=1
@@ -139,8 +132,6 @@ else:
     print('ALL')
     partitionCnt=30
     filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/AllProjects/'
-
-# filepath='./output/'
 
 
 datestr = ""
@@ -496,18 +487,18 @@ if run_proj == 'SOLE' :
              ]
 else:
     issueLists = [
-            #   {'issueType':"Portfolio Initiative",'partitionCnt':1},
-            #   {'issueType':"Product Initiative", 'partitionCnt':1 },
-            #   {'issueType':"Epic",'partitionCnt':5},
-            #   {'issueType':"Task",'partitionCnt':partitionCnt},
-            #   {'issueType':"Sub-task",'partitionCnt':partitionCnt},
-            #   {'issueType':"Bug",'partitionCnt':partitionCnt},
-            #   {'issueType':"Incident",'partitionCnt':partitionCnt},
-            #   {'issueType':"Production Defects",'partitionCnt':partitionCnt},
-            #   {'issueType':"Defect",'partitionCnt':partitionCnt},
-            #   {'issueType':"Issue",'partitionCnt':partitionCnt},
-            #   {'issueType':"Test",'partitionCnt':partitionCnt},
-              {'issueType':"Story",'partitionCnt':partitionCnt}
+             {'issueType':"Portfolio Initiative",'partitionCnt':1},
+             {'issueType':"Product Initiative", 'partitionCnt':1 },
+             {'issueType':"Epic",'partitionCnt':5},
+             {'issueType':"Task",'partitionCnt':partitionCnt},
+             {'issueType':"Sub-task",'partitionCnt':partitionCnt},
+             {'issueType':"Bug",'partitionCnt':partitionCnt},
+             {'issueType':"Incident",'partitionCnt':partitionCnt},
+             {'issueType':"Production Defects",'partitionCnt':partitionCnt},
+             {'issueType':"Defect",'partitionCnt':partitionCnt},
+             {'issueType':"Issue",'partitionCnt':partitionCnt},
+             {'issueType':"Test",'partitionCnt':partitionCnt},
+             {'issueType':"Story",'partitionCnt':partitionCnt}
              ]
              
 pd.set_option('display.max_columns', None)
@@ -521,7 +512,7 @@ def initDataframe():
     'Severity Level',
     'Labels',
     'EpicLink',
-    'Issuelinks',
+    # 'Issuelinks',
     'Status',
     'Components',
     'IssueCreator',
@@ -875,8 +866,8 @@ for issueList in issueLists:
                g_Df['After Global Design']= g_Df['Baseline Scope'].apply(lambda x: {True:'YES',False:'NO'}[x.__contains__('Baseline 2')] )
                g_Df['The Rudy Special']= g_Df['Baseline Scope'].apply(lambda x: {True:'YES',False:'NO'}[x.__contains__('Baseline 3')] )
             
-
-
+            # display(g_Df)
+            # g_Df['Issuelinks'] = g_Df['key'].apply(lambda x:getLinkedIssues(x))
 
             logger.info("Files uploaded")
 
@@ -931,10 +922,6 @@ logger.info("Script ended accumulating data from JIRA")
 logger.info("=======================================")
 
 
-
-
-
-
 # g_Df[g_Df['Intial SOW']=='YES'][['Intial SOW','After Global Design','The Rudy Special','Baseline Scope']]
 
 
@@ -945,24 +932,6 @@ logger.info("=======================================")
 # 15/* * * * *  /usr/bin/python3 /Users/u1002018/src/PAE/JIRA/py/sole_proj.py
 
 
-
-# def getLinkedIssues(key):
-#     check= epic_Df[epic_Df['key'] == key].Issuelinks.astype(bool)
-#     if check.to_list()[0] == True:
-#         issueLink_str=epic_Df[epic_Df['key'] == key]['Issuelinks']
-#         issueLink_str=issueLink_str.to_list()[0][0]
-
-#         searchQry=f'?jql= issue in linkedIssues("{key}")'
-#         searchQry_DS = getDataSet(searchQry)
-#         linkedIssue=pd.json_normalize(searchQry_DS)
-
-#         specficfields = linkedIssue[['key','fields.status.name','fields.priority.name','fields.summary']]
-#         specficfields=specficfields.rename(columns={'fields.status.name': 'status','fields.priority.name':'priority', 'fields.summary':'summary'})
-#         json_specficfields =specficfields.to_json(orient='records', lines=True)
-#         # print(json_specficfields)
-#         return json_specficfields
-#     else:
-#         return ""
 
 
 
