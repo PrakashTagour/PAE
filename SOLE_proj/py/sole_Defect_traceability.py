@@ -38,7 +38,7 @@ def get_report(base_url):
     return None
 
 
-def getDataSet(query):
+def getDataSet(query, project, issueType):
     pd_obj = None
     maxRslt = 500
     totalRsltFetch = -1
@@ -53,12 +53,12 @@ def getDataSet(query):
             if obj['issues']:
                 df = pd.concat([df, pd.json_normalize(obj['issues']) ], ignore_index=True)
             else:
-               logger.error(f'No records found....')
+               logger.error(f'No records found ({project} - {issueType})....')
             if (totalRsltFetch >= obj['total'] ):
                 break
         # pd_obj = pd.json_normalize(obj['issues'])
         else:
-            logger.error(f'Dataset was empty....')
+            logger.error(f'Dataset was empty ({project} - {issueType})....')
             break
         # break       
 
@@ -172,9 +172,9 @@ def initDataframe():
 
 
 global logger
-logger = setup_logger(logging.INFO)
-logger.info("=======================================")
-logger.info("Script start accumulating data from JIRA")
+logger = setup_logger(logging.WARNING)
+logger.warning("=======================================")
+logger.warning("Script start accumulating data from JIRA")
 
 
 def data_clean(dataframe):
@@ -229,7 +229,7 @@ def fetch( project, issueType):
     # else:
     searchQry=f"{searchQry} {attribute}"
 
-    fetch_df = getDataSet(searchQry)
+    fetch_df = getDataSet(searchQry, project, issueType)
 
     return data_clean(fetch_df)    
     
@@ -303,6 +303,7 @@ def getIssueLink(df):
 csv_files = Path(filepath).glob("*_QA_working.csv")
 for file in csv_files:
     filename=file.name
+    logger.warning(f'removing {filename}....')
     os.remove(os.path.join(filepath, filename))
 
 strings ='"SOLMerch"'
@@ -355,13 +356,15 @@ logger.info("Story Files uploaded")
 logger.info("Move working files to current files")
 
 # Get all .csv files in the 'data' directory
-csv_files = Path(filepath).glob("*.csv")                                   
+csv_files = Path(filepath).glob("*_QA_working.csv")                                   
 for file in csv_files:
     filename=file.name
     newname= filename.replace('_QA_working.csv','.csv')
+    logger.warning(f'renaming {filename} TO {newname}....')
     os.rename(os.path.join(filepath, filename), os.path.join(filepath, newname))
-    logger.info(f"Script ended accumulating data from JIRA : {os.path.join(filepath, newname)}")
-logger.info("=======================================")
+    os.utime(os.path.join(filepath, newname), None)
+    logger.warning(f"Script ended accumulating data from JIRA : {os.path.join(filepath, newname)}")
+logger.warning("=======================================")
 
 
 # display(g_Df['Issuelinks'])
