@@ -1,5 +1,0 @@
-python-dotenv
-nbformat
-requests
-pytz
-pandas
