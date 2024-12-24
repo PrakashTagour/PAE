@@ -125,11 +125,9 @@ def keyvalue(x,field):
 run_proj = sys.argv[1]
 # run_proj ='ALL'
 if run_proj == 'SOLE':
-    print('SOLE')
     partitionCnt=1
     filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/SOLE/'
 else:
-    print('ALL')
     partitionCnt=30
     filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/AllProjects/'
 
@@ -828,7 +826,16 @@ def calculateCycleTime(l_Df):
             
     return l_Df
 
-
+def clean_folder(filepath,finder):
+    # Get all .csv files in the 'data' directory
+    csv_files = Path(filepath).glob(f"*{finder}")                                   
+    for file in csv_files:
+        filename=file.name
+        newname= filename.replace(finder,'.csv')
+        logger.warning(f'renaming {filename} TO {newname}....')
+        os.rename(os.path.join(filepath, filename), os.path.join(filepath, newname))
+        os.utime(os.path.join(filepath, newname), None)
+        
 # strings = projectList()
 # # strings ='"SOLMerch","SOLEFIN"'
 # split_string_list = split_list(strings, issueList['partitionCnt'])
@@ -901,27 +908,18 @@ for issueList in issueLists:
                except Exception as e:  
                   logger.error(f"Failed to upload files to {filepath}: {e}")
                   pass
-
+            
             # Delete the old DataFrame 
             del(g_Df)
 
             # Perform garbage collection                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
             gc.collect()
             # break
+    clean_folder(filepath,"_working.csv")
 logger.info("Story Files uploaded")
 
 logger.info("Move working files to current files")
 
-# Get all .csv files in the 'data' directory
-csv_files = Path(filepath).glob("*_working.csv")                                   
-for file in csv_files:
-    filename=file.name
-    newname= filename.replace('_working.csv','.csv')
-    logger.warning(f'renaming {filename} TO {newname}....')
-    os.rename(os.path.join(filepath, filename), os.path.join(filepath, newname))
-    os.utime(os.path.join(filepath, newname), None)
-    logger.warning(f"Script ended accumulating data from JIRA : {os.path.join(filepath, newname)}")
-logger.warning("=======================================")
 
 
 # g_Df[g_Df['Intial SOW']=='YES'][['Intial SOW','After Global Design','The Rudy Special','Baseline Scope']]

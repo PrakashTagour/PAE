@@ -122,6 +122,15 @@ def keyvalue(x,field):
     else:
      return 'NA'
 
+def clean_folder(filepath,finder):
+    # Get all .csv files in the 'data' directory
+    csv_files = Path(filepath).glob(f"*{finder}")                                   
+    for file in csv_files:
+        filename=file.name
+        newname= filename.replace(finder,'.csv')
+        logger.warning(f'renaming {filename} TO {newname}....')
+        os.rename(os.path.join(filepath, filename), os.path.join(filepath, newname))
+        os.utime(os.path.join(filepath, newname), None)
 
 filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/SOLE/'
 
@@ -300,7 +309,7 @@ def getIssueLink(df):
 
 
 # Get all .csv files in the 'data' directory
-csv_files = Path(filepath).glob("*_QA_working.csv")
+csv_files = Path(filepath).glob("*_working_QA.csv")
 for file in csv_files:
     filename=file.name
     logger.warning(f'removing {filename}....')
@@ -333,9 +342,9 @@ for issueList in issueLists:
 
         try:
             if issueList['issueType'] in ['Portfolio Initiative']:
-                output_path = os.path.join(filepath, 'Portfolio_Initiative_ParentEpic_QA_working.csv')
+                output_path = os.path.join(filepath, 'Portfolio_Initiative_ParentEpic_working_QA.csv')
             else:              
-                output_path = os.path.join(filepath, f"IssueLink_QA_working.csv")
+                output_path = os.path.join(filepath, f"IssueLink_working_QA.csv")
 
             i_df = getIssueLink(g_Df)
             # display(i_df)
@@ -344,27 +353,17 @@ for issueList in issueLists:
         except Exception as e:  
             logger.error(f"Failed to upload files to {filepath}: {e}")
             pass
-
+        
+        clean_folder(filepath,"_QA_working.csv")
         # Delete the old DataFrame 
-        # del(g_Df)
+        del(g_Df)
 
         # Perform garbage collection                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
-        # gc.collect()
+        gc.collect()
         
 logger.info("Story Files uploaded")
 
 logger.info("Move working files to current files")
-
-# Get all .csv files in the 'data' directory
-csv_files = Path(filepath).glob("*_QA_working.csv")                                   
-for file in csv_files:
-    filename=file.name
-    newname= filename.replace('_QA_working.csv','.csv')
-    logger.warning(f'renaming {filename} TO {newname}....')
-    os.rename(os.path.join(filepath, filename), os.path.join(filepath, newname))
-    os.utime(os.path.join(filepath, newname), None)
-    logger.warning(f"Script ended accumulating data from JIRA : {os.path.join(filepath, newname)}")
-logger.warning("=======================================")
 
 
 # display(g_Df['Issuelinks'])
