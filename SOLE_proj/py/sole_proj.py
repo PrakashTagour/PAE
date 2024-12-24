@@ -18,10 +18,10 @@ base_url = 'https://jira.footlocker.com/rest/api/2/search'
 
 
 
-def get_report(base_url):
+def get_report(base_url,api_token):
     logger.info("Getting report results...")
     header_gs = {'Accept': 'application/json'}
-    headers = { 'Authorization' : 'Bearer %s' %  'OTQ5MjQwODU4MTU4OtHnNkWQEBeFpg4UlD91PxlqSR+H'}
+    headers = { 'Authorization' : 'Bearer %s' %  api_token}
     # 'Content-Length':3000 }
     logger.info(base_url)
     
@@ -38,16 +38,16 @@ def get_report(base_url):
     return None
 
 
-def getDataSet(query, project, issueType):
+def getDataSet(query, project, issueType,api_token):
     pd_obj = None
     maxRslt = 500
     totalRsltFetch = -1
     df= pd.DataFrame()
     while True:
-        dataset= get_report(base_url+query+f"&maxResults={maxRslt}&startAt={totalRsltFetch + 1 }")
+        dataset= get_report(base_url+query+f"&maxResults={maxRslt}&startAt={totalRsltFetch + 1 }", api_token)
         if dataset != None:
             obj = json.loads(dataset)
-            logger.info(f"total: {obj['total']}")
+            logger.info(f"total: {obj['total']} ({project} - {issueType})")
             totalRsltFetch = totalRsltFetch + maxRslt
 
             if obj['issues']:
@@ -66,10 +66,10 @@ def getDataSet(query, project, issueType):
     
 
 
-def getUrlDataSet(url):
+def getUrlDataSet(url,api_token):
     pd_obj = None
 
-    dataset= get_report(url)
+    dataset= get_report(ur, api_token)
     if dataset != None:
         pd_obj = json.loads(dataset)
         # pd_obj = pd.json_normalize(obj['issues'])
@@ -122,14 +122,46 @@ def keyvalue(x,field):
     else:
      return 'NA'
 
+
+
+def clean_folder(filepath,finder):
+    # Get all .csv files in the 'data' directory
+    csv_files = Path(filepath).glob(f"*{finder}")                                   
+    for file in csv_files:
+        filename=file.name
+        newname= filename.replace(finder,'.csv')
+        logger.warning(f'renaming {filename} TO {newname}....')
+        os.rename(os.path.join(filepath, filename), os.path.join(filepath, newname))
+        os.utime(os.path.join(filepath, newname), None)
+
+
+
+
+
+from dotenv import load_dotenv
+load_dotenv()
+
+api_token=os.getenv('JIRA_TOKEN')
+
+if not api_token:
+    raise ValueError("No JIRA API token found. Check your .env file / environment variable.")
+
+
+
+
 run_proj = sys.argv[1]
-# run_proj ='ALL'
+# run_proj ='SOLE'
+
 if run_proj == 'SOLE':
+    print('SOLE')
     partitionCnt=1
     filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/SOLE/'
 else:
+    print('ALL')
     partitionCnt=30
     filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/AllProjects/'
+
+# filepath='./output/'
 
 
 datestr = ""
@@ -485,18 +517,18 @@ if run_proj == 'SOLE' :
              ]
 else:
     issueLists = [
-             {'issueType':"Portfolio Initiative",'partitionCnt':1},
-             {'issueType':"Product Initiative", 'partitionCnt':1 },
-             {'issueType':"Epic",'partitionCnt':5},
-             {'issueType':"Task",'partitionCnt':partitionCnt},
-             {'issueType':"Sub-task",'partitionCnt':partitionCnt},
-             {'issueType':"Bug",'partitionCnt':partitionCnt},
-             {'issueType':"Incident",'partitionCnt':partitionCnt},
-             {'issueType':"Production Defects",'partitionCnt':partitionCnt},
-             {'issueType':"Defect",'partitionCnt':partitionCnt},
-             {'issueType':"Issue",'partitionCnt':partitionCnt},
-             {'issueType':"Test",'partitionCnt':partitionCnt},
-             {'issueType':"Story",'partitionCnt':partitionCnt}
+            #   {'issueType':"Portfolio Initiative",'partitionCnt':1},
+            #   {'issueType':"Product Initiative", 'partitionCnt':1 },
+            #   {'issueType':"Epic",'partitionCnt':5},
+            #   {'issueType':"Task",'partitionCnt':partitionCnt},
+            #   {'issueType':"Sub-task",'partitionCnt':partitionCnt},
+              {'issueType':"Bug",'partitionCnt':partitionCnt},
+              {'issueType':"Incident",'partitionCnt':partitionCnt},
+              {'issueType':"Production Defects",'partitionCnt':partitionCnt},
+              {'issueType':"Defect",'partitionCnt':partitionCnt},
+              {'issueType':"Issue",'partitionCnt':partitionCnt},
+              {'issueType':"Test",'partitionCnt':partitionCnt},
+            #   {'issueType':"Story",'partitionCnt':partitionCnt}
              ]
              
 pd.set_option('display.max_columns', None)
@@ -569,9 +601,9 @@ def initDataframe():
 
 
 global logger
-logger = setup_logger(logging.WARNING)
-logger.warning("=======================================")
-logger.warning("Script start accumulating data from JIRA")
+logger = setup_logger()
+logger.info("=======================================")
+logger.info("Script start accumulating data from JIRA")
 
 
 def data_clean(dataframe):
@@ -683,7 +715,7 @@ def fetch( project, issueType):
     # else:
     searchQry=f"{searchQry} {attribute}"
 
-    fetch_df = getDataSet(searchQry, project, issueType)
+    fetch_df = getDataSet(searchQry,project, issueType, api_token )
 
     return data_clean(fetch_df)    
     
@@ -826,26 +858,11 @@ def calculateCycleTime(l_Df):
             
     return l_Df
 
-def clean_folder(filepath,finder):
-    # Get all .csv files in the 'data' directory
-    csv_files = Path(filepath).glob(f"*{finder}")                                   
-    for file in csv_files:
-        filename=file.name
-        newname= filename.replace(finder,'.csv')
-        logger.warning(f'renaming {filename} TO {newname}....')
-        os.rename(os.path.join(filepath, filename), os.path.join(filepath, newname))
-        os.utime(os.path.join(filepath, newname), None)
-        
-# strings = projectList()
-# # strings ='"SOLMerch","SOLEFIN"'
-# split_string_list = split_list(strings, issueList['partitionCnt'])
-
 
 # Get all .csv files in the 'data' directory
 csv_files = Path(filepath).glob("*_working.csv")
 for file in csv_files:
     filename=file.name
-    logger.warning(f'removing {filename}....')
     os.remove(os.path.join(filepath, filename))
 
 
@@ -858,7 +875,7 @@ for issueList in issueLists:
     split_string_list = split_list(strings, issueList['partitionCnt'])
     filtered_list = [series for series in split_string_list if not series.empty]
     for partition in filtered_list:
-        logger.info(f"processing %s - %s",partition,issueList['issueType'])
+        logger.warning(f"processing %s - %s",partition,issueList['issueType'])
         output_path = os.path.join(filepath, f"{issueList['issueType']}_working.csv")
         df=fetch(', '.join(['"{}"'.format(value) for value in partition]),issueList['issueType'])
         if df is not None and not df.empty:
@@ -908,7 +925,8 @@ for issueList in issueLists:
                except Exception as e:  
                   logger.error(f"Failed to upload files to {filepath}: {e}")
                   pass
-            
+
+            logger.info("Move working files to current files")
             # Delete the old DataFrame 
             del(g_Df)
 
@@ -916,9 +934,12 @@ for issueList in issueLists:
             gc.collect()
             # break
     clean_folder(filepath,"_working.csv")
-logger.info("Story Files uploaded")
+logger.warning(f"Script ended accumulating data from JIRA ")
+logger.warning("=======================================")
 
-logger.info("Move working files to current files")
+
+
+
 
 
 

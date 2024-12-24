@@ -18,10 +18,10 @@ base_url = 'https://jira.footlocker.com/rest/api/2/search'
 
 
 
-def get_report(base_url):
+def get_report(base_url,api_token):
     logger.info("Getting report results...")
     header_gs = {'Accept': 'application/json'}
-    headers = { 'Authorization' : 'Bearer %s' %  'OTQ5MjQwODU4MTU4OtHnNkWQEBeFpg4UlD91PxlqSR+H'}
+    headers = { 'Authorization' : 'Bearer %s' %  api_token}
     # 'Content-Length':3000 }
     logger.info(base_url)
     
@@ -38,16 +38,16 @@ def get_report(base_url):
     return None
 
 
-def getDataSet(query, project, issueType):
+def getDataSet(query, project, issueType,api_token):
     pd_obj = None
     maxRslt = 500
     totalRsltFetch = -1
     df= pd.DataFrame()
     while True:
-        dataset= get_report(base_url+query+f"&maxResults={maxRslt}&startAt={totalRsltFetch + 1 }")
+        dataset= get_report(base_url+query+f"&maxResults={maxRslt}&startAt={totalRsltFetch + 1 }", api_token)
         if dataset != None:
             obj = json.loads(dataset)
-            logger.info(f"total: {obj['total']}")
+            logger.info(f"total: {obj['total']} ({project} - {issueType})")
             totalRsltFetch = totalRsltFetch + maxRslt
 
             if obj['issues']:
@@ -66,10 +66,10 @@ def getDataSet(query, project, issueType):
     
 
 
-def getUrlDataSet(url):
+def getUrlDataSet(url,api_token):
     pd_obj = None
 
-    dataset= get_report(url)
+    dataset= get_report(ur, api_token)
     if dataset != None:
         pd_obj = json.loads(dataset)
         # pd_obj = pd.json_normalize(obj['issues'])
@@ -122,6 +122,8 @@ def keyvalue(x,field):
     else:
      return 'NA'
 
+
+
 def clean_folder(filepath,finder):
     # Get all .csv files in the 'data' directory
     csv_files = Path(filepath).glob(f"*{finder}")                                   
@@ -132,9 +134,18 @@ def clean_folder(filepath,finder):
         os.rename(os.path.join(filepath, filename), os.path.join(filepath, newname))
         os.utime(os.path.join(filepath, newname), None)
 
+
+
 filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/SOLE/'
 
 #filepath='./output/QA/'
+from dotenv import load_dotenv
+load_dotenv()
+
+api_token=os.getenv('JIRA_TOKEN')
+
+if not api_token:
+    raise ValueError("No JIRA API token found. Check your .env file / environment variable.")
 
 
 datestr = ""
@@ -238,7 +249,7 @@ def fetch( project, issueType):
     # else:
     searchQry=f"{searchQry} {attribute}"
 
-    fetch_df = getDataSet(searchQry, project, issueType)
+    fetch_df = getDataSet(searchQry,project, issueType)
 
     return data_clean(fetch_df)    
     
@@ -312,7 +323,6 @@ def getIssueLink(df):
 csv_files = Path(filepath).glob("*_working_QA.csv")
 for file in csv_files:
     filename=file.name
-    logger.warning(f'removing {filename}....')
     os.remove(os.path.join(filepath, filename))
 
 strings ='"SOLMerch"'
@@ -342,9 +352,9 @@ for issueList in issueLists:
 
         try:
             if issueList['issueType'] in ['Portfolio Initiative']:
-                output_path = os.path.join(filepath, 'Portfolio_Initiative_ParentEpic_working_QA.csv')
+                output_path = os.path.join(filepath, 'Portfolio_Initiative_ParentEpic_QA_working.csv')
             else:              
-                output_path = os.path.join(filepath, f"IssueLink_working_QA.csv")
+                output_path = os.path.join(filepath, f"IssueLink_QA_working.csv")
 
             i_df = getIssueLink(g_Df)
             # display(i_df)
@@ -364,30 +374,3 @@ for issueList in issueLists:
 logger.info("Story Files uploaded")
 
 logger.info("Move working files to current files")
-
-
-# display(g_Df['Issuelinks'])
-
-
-# g_Df[g_Df['Intial SOW']=='YES'][['Intial SOW','After Global Design','The Rudy Special','Baseline Scope']]
-
-
-# len(g_Df[g_Df['key'] == 'SOLMERCH-3536']['Issuelinks'].to_list()[0][0])
-
-
-
-       
-
-
-
-    
-
-
-
-# 15/* * * * *  /usr/bin/python3 /Users/u1002018/src/PAE/JIRA/py/sole_proj.py
-
-
-
-
-
-
