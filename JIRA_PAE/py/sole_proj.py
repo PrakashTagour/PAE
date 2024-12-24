@@ -69,7 +69,7 @@ def getDataSet(query, project, issueType,api_token):
 def getUrlDataSet(url,api_token):
     pd_obj = None
 
-    dataset= get_report(ur, api_token)
+    dataset= get_report(url, api_token)
     if dataset != None:
         pd_obj = json.loads(dataset)
         # pd_obj = pd.json_normalize(obj['issues'])
@@ -100,9 +100,9 @@ def setup_logger( level=logging.WARNING):
     return logger
 
 
-def projectList():
+def projectList(api_token):
     searchURL='https://jira.footlocker.com/rest/api/2/project'
-    searchQry_DS = getUrlDataSet(searchURL)
+    searchQry_DS = getUrlDataSet(searchURL,api_token)
     df=pd.json_normalize(searchQry_DS)
     df=df.drop(df[df['key'].isin(['DEVOPS','EPL'])].index)
     return df['key']
@@ -517,18 +517,18 @@ if run_proj == 'SOLE' :
              ]
 else:
     issueLists = [
-            #   {'issueType':"Portfolio Initiative",'partitionCnt':1},
-            #   {'issueType':"Product Initiative", 'partitionCnt':1 },
-            #   {'issueType':"Epic",'partitionCnt':5},
-            #   {'issueType':"Task",'partitionCnt':partitionCnt},
-            #   {'issueType':"Sub-task",'partitionCnt':partitionCnt},
+              {'issueType':"Portfolio Initiative",'partitionCnt':1},
+              {'issueType':"Product Initiative", 'partitionCnt':1 },
+              {'issueType':"Epic",'partitionCnt':5},
+              {'issueType':"Task",'partitionCnt':partitionCnt},
+              {'issueType':"Sub-task",'partitionCnt':partitionCnt},
               {'issueType':"Bug",'partitionCnt':partitionCnt},
               {'issueType':"Incident",'partitionCnt':partitionCnt},
               {'issueType':"Production Defects",'partitionCnt':partitionCnt},
               {'issueType':"Defect",'partitionCnt':partitionCnt},
               {'issueType':"Issue",'partitionCnt':partitionCnt},
               {'issueType':"Test",'partitionCnt':partitionCnt},
-            #   {'issueType':"Story",'partitionCnt':partitionCnt}
+              {'issueType':"Story",'partitionCnt':partitionCnt}
              ]
              
 pd.set_option('display.max_columns', None)
@@ -602,8 +602,8 @@ def initDataframe():
 
 global logger
 logger = setup_logger()
-logger.info("=======================================")
-logger.info("Script start accumulating data from JIRA")
+logger.warning("=======================================")
+logger.warning("Script start accumulating data from JIRA")
 
 
 def data_clean(dataframe):
@@ -869,7 +869,7 @@ for file in csv_files:
 if run_proj == 'SOLE':
    strings =pd.Series(["SOLMerch","SOLEFIN"])
 else:
-   strings = projectList()
+   strings = projectList(api_token)
 
 for issueList in issueLists:
     split_string_list = split_list(strings, issueList['partitionCnt'])

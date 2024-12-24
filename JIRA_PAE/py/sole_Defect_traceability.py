@@ -136,9 +136,6 @@ def clean_folder(filepath,finder):
 
 
 
-filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/SOLE/'
-
-#filepath='./output/QA/'
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -146,6 +143,11 @@ api_token=os.getenv('JIRA_TOKEN')
 
 if not api_token:
     raise ValueError("No JIRA API token found. Check your .env file / environment variable.")
+
+
+filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/SOLE/'
+
+#filepath='./output/QA/'
 
 
 datestr = ""
@@ -235,7 +237,7 @@ def data_clean(dataframe):
 
 
 
-def fetch( project, issueType):
+def fetch( project, issueType, apitoken):
     global fetch_df 
     logger.info(f"Fetch {issueType}...")
 
@@ -249,7 +251,7 @@ def fetch( project, issueType):
     # else:
     searchQry=f"{searchQry} {attribute}"
 
-    fetch_df = getDataSet(searchQry,project, issueType)
+    fetch_df = getDataSet(searchQry,project, issueType, api_token)
 
     return data_clean(fetch_df)    
     
@@ -310,10 +312,10 @@ def getIssueLink(df):
             for rec in lst:
                 if rec.get("inwardIssue"):
                     inwardIssues = rec['inwardIssue']
-                    l_df = l_df.append(createIssueLinkNode(inwardIssues,row,rec['type'],'inward'), ignore_index=True)
+                    l_df = pd.concat([l_df, pd.json_normalize(createIssueLinkNode(inwardIssues,row,rec['type'],'inward'))], ignore_index=True)
                 if rec.get("outwardIssue"):
                     outwardIssues = rec['outwardIssue']
-                    l_df = l_df.append(createIssueLinkNode(outwardIssues,row,rec['type'],'outward'), ignore_index=True)
+                    l_df = pd.concat([l_df, pd.json_normalize(createIssueLinkNode(outwardIssues,row,rec['type'],'outward'))], ignore_index=True)
     # display(l_df)
     return l_df
     # print (df['Issuelinks'].to_list()[0][idx]['inwardIssue']['fields'])
@@ -335,7 +337,7 @@ for issueList in issueLists:
     # for partition in filtered_list:
         # logger.warning(f"processing %s - %s",partition,issueList['issueType'])
 
-    df=fetch('SOLMerch',issueList['issueType'])
+    df=fetch('SOLMerch',issueList['issueType'],api_token)
     if df is not None and not df.empty:
         g_Df = initDataframe()
         g_Df = pd.concat([g_Df, df ], ignore_index=True)
@@ -364,13 +366,14 @@ for issueList in issueLists:
             logger.error(f"Failed to upload files to {filepath}: {e}")
             pass
         
-        clean_folder(filepath,"_QA_working.csv")
         # Delete the old DataFrame 
         del(g_Df)
 
         # Perform garbage collection                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
         gc.collect()
-        
+  
 logger.info("Story Files uploaded")
-
 logger.info("Move working files to current files")
+clean_folder(filepath,"_QA_working.csv")    
+logger.warning(f"Script ended accumulating data from JIRA ")
+logger.warning("=======================================")  
