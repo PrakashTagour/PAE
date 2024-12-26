@@ -834,17 +834,15 @@ def calculateCycleTime(l_Df):
             _status_change['created_at']= pd.to_datetime(_status_change['created_at'])
             _status_change['time_diff'] = _status_change['created_at'].diff()
 
+            l_Df.at[index,'CT_leadTime'] = format_timedelta(_status_change['time_diff'].sum())
 
-
-            row['CT_leadTime'] = format_timedelta(_status_change['time_diff'].sum())
-
-            row['CT_discovery'] = format_timedelta(_status_change[_status_change['to'].isin( discovery_state )]['time_diff'].sum())
+            l_Df.at[index,'CT_discovery'] = format_timedelta(_status_change[_status_change['to'].isin( discovery_state )]['time_diff'].sum())
             
-            row['CT_development'] = format_timedelta(_status_change[_status_change['to'].isin( development_state)]['time_diff'].sum())                                        
-            row['CT_deployment'] = format_timedelta(_status_change[_status_change['to'].isin(deployment_state)]['time_diff'].sum())
-            row['CT_cancelled'] = format_timedelta(_status_change[_status_change['to'].isin(cancel_state )]['time_diff'].sum())   
-            row['CT_qa'] = format_timedelta(_status_change[_status_change['to'].isin(qa_state)]['time_diff'].sum())
-
+            l_Df.at[index,'CT_development'] = format_timedelta(_status_change[_status_change['to'].isin( development_state)]['time_diff'].sum())                                        
+            l_Df.at[index,'CT_deployment'] = format_timedelta(_status_change[_status_change['to'].isin(deployment_state)]['time_diff'].sum())
+            l_Df.at[index,'CT_cancelled'] = format_timedelta(_status_change[_status_change['to'].isin(cancel_state )]['time_diff'].sum())   
+            l_Df.at[index,'CT_qa'] = format_timedelta(_status_change[_status_change['to'].isin(qa_state)]['time_diff'].sum())
+            
             
             _status_change['created_at'] = pd.to_datetime(_status_change['created_at'],utc=True)
             _status_change['created_at'] = _status_change['created_at'].dt.date
