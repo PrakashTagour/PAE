@@ -505,6 +505,7 @@ if run_proj == 'SOLE' :
               {'issueType':"Portfolio Initiative",'partitionCnt':1},
               {'issueType':"Product Initiative", 'partitionCnt':1 },
               {'issueType':"Epic",'partitionCnt':5},
+              {'issueType':"Story",'partitionCnt':partitionCnt},
               {'issueType':"Task",'partitionCnt':partitionCnt},
               {'issueType':"Sub-task",'partitionCnt':partitionCnt},
               {'issueType':"Bug",'partitionCnt':partitionCnt},
@@ -512,14 +513,14 @@ if run_proj == 'SOLE' :
               {'issueType':"Production Defects",'partitionCnt':partitionCnt},
               {'issueType':"Defect",'partitionCnt':partitionCnt},
               {'issueType':"Issue",'partitionCnt':partitionCnt},
-              {'issueType':"Test",'partitionCnt':partitionCnt},
-              {'issueType':"Story",'partitionCnt':partitionCnt}
+              {'issueType':"Test",'partitionCnt':partitionCnt}
              ]
 else:
     issueLists = [
               {'issueType':"Portfolio Initiative",'partitionCnt':1},
               {'issueType':"Product Initiative", 'partitionCnt':1 },
               {'issueType':"Epic",'partitionCnt':5},
+              {'issueType':"Story",'partitionCnt':partitionCnt},
               {'issueType':"Task",'partitionCnt':partitionCnt},
               {'issueType':"Sub-task",'partitionCnt':partitionCnt},
               {'issueType':"Bug",'partitionCnt':partitionCnt},
@@ -527,8 +528,7 @@ else:
               {'issueType':"Production Defects",'partitionCnt':partitionCnt},
               {'issueType':"Defect",'partitionCnt':partitionCnt},
               {'issueType':"Issue",'partitionCnt':partitionCnt},
-              {'issueType':"Test",'partitionCnt':partitionCnt},
-              {'issueType':"Story",'partitionCnt':partitionCnt}
+              {'issueType':"Test",'partitionCnt':partitionCnt}
              ]
              
 pd.set_option('display.max_columns', None)
@@ -873,7 +873,7 @@ for issueList in issueLists:
     split_string_list = split_list(strings, issueList['partitionCnt'])
     filtered_list = [series for series in split_string_list if not series.empty]
     for partition in filtered_list:
-        logger.warning(f"processing %s - %s",partition,issueList['issueType'])
+        logger.warning(f"processing %s - %s",partition.values[0],issueList['issueType'])
         output_path = os.path.join(filepath, f"{issueList['issueType']}_working.csv")
         df=fetch(', '.join(['"{}"'.format(value) for value in partition]),issueList['issueType'])
         if df is not None and not df.empty:
