@@ -1,0 +1,958 @@
+// 20250117120452
+// https://jira.footlocker.com/rest/api/2/issuetype
+
+[
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/10000",
+    "id": "10000",
+    "description": "Created by Jira Software - do not edit or delete. Issue type for a big user story that needs to be broken down.",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10307&avatarType=issuetype",
+    "name": "Epic",
+    "subtask": false,
+    "avatarId": 10307
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/10001",
+    "id": "10001",
+    "description": "Created by Jira Software - do not edit or delete. Issue type for a user story.",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10315&avatarType=issuetype",
+    "name": "Story",
+    "subtask": false,
+    "avatarId": 10315
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/19200",
+    "id": "19200",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=38703&avatarType=issuetype",
+    "name": "Incident",
+    "subtask": false,
+    "avatarId": 38703
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/1",
+    "id": "1",
+    "description": "A problem which impairs or prevents the functions of the product.",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+    "name": "Bug",
+    "subtask": false,
+    "avatarId": 10303
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/3",
+    "id": "3",
+    "description": "A task that needs to be done.",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+    "name": "Task",
+    "subtask": false,
+    "avatarId": 10318
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/5",
+    "id": "5",
+    "description": "The sub-task of the issue",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Sub-task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/10400",
+    "id": "10400",
+    "description": "This Issue Type is used to create Zephyr Test within Jira.",
+    "iconUrl": "https://jira.footlocker.com/download/resources/com.thed.zephyr.je/images/icons/ico_zephyr_issuetype.png",
+    "name": "Test",
+    "subtask": false
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/10700",
+    "id": "10700",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10312&avatarType=issuetype",
+    "name": "Defect",
+    "subtask": false,
+    "avatarId": 10312
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/20004",
+    "id": "20004",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10304&avatarType=issuetype",
+    "name": "Risk",
+    "subtask": false,
+    "avatarId": 10304
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/10102",
+    "id": "10102",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10307&avatarType=issuetype",
+    "name": "Business Requirements",
+    "subtask": false,
+    "avatarId": 10307
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/16000",
+    "id": "16000",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Feature",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/16001",
+    "id": "16001",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10304&avatarType=issuetype",
+    "name": "Production Defects",
+    "subtask": false,
+    "avatarId": 10304
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13800",
+    "id": "13800",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Spike",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/11500",
+    "id": "11500",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Deployment",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/11701",
+    "id": "11701",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=42601&avatarType=issuetype",
+    "name": "Portfolio Initiative",
+    "subtask": false,
+    "avatarId": 42601
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/10701",
+    "id": "10701",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Issue",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/15200",
+    "id": "15200",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Field Audit",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/15201",
+    "id": "15201",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Logistics",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/20200",
+    "id": "20200",
+    "description": "Stage and Prod",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Prod (Function App)",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/20201",
+    "id": "20201",
+    "description": "Dev, Test and UAT",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Non-Prod (Function App)",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12704",
+    "id": "12704",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=16315&avatarType=issuetype",
+    "name": "POG",
+    "subtask": false,
+    "avatarId": 16315
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12705",
+    "id": "12705",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=16311&avatarType=issuetype",
+    "name": "Digital Marketing",
+    "subtask": false,
+    "avatarId": 16311
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12703",
+    "id": "12703",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=16313&avatarType=issuetype",
+    "name": "Imaging",
+    "subtask": false,
+    "avatarId": 16313
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12706",
+    "id": "12706",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=16312&avatarType=issuetype",
+    "name": "CRM",
+    "subtask": false,
+    "avatarId": 16312
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12708",
+    "id": "12708",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=16316&avatarType=issuetype",
+    "name": "Print",
+    "subtask": false,
+    "avatarId": 16316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13100",
+    "id": "13100",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=16422&avatarType=issuetype",
+    "name": "Photo / Video",
+    "subtask": false,
+    "avatarId": 16422
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13101",
+    "id": "13101",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=16420&avatarType=issuetype",
+    "name": "Misc. Design",
+    "subtask": false,
+    "avatarId": 16420
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13102",
+    "id": "13102",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=16419&avatarType=issuetype",
+    "name": "Proofreading",
+    "subtask": false,
+    "avatarId": 16419
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13103",
+    "id": "13103",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=16421&avatarType=issuetype",
+    "name": "Misc. Editorial",
+    "subtask": false,
+    "avatarId": 16421
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/18300",
+    "id": "18300",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Misc. Translations",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13601",
+    "id": "13601",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=17002&avatarType=issuetype",
+    "name": "Site Merchandising",
+    "subtask": false,
+    "avatarId": 17002
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/14100",
+    "id": "14100",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=17701&avatarType=issuetype",
+    "name": "Social",
+    "subtask": false,
+    "avatarId": 17701
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/14000",
+    "id": "14000",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=17617&avatarType=issuetype",
+    "name": "Mobile Apps",
+    "subtask": false,
+    "avatarId": 17617
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/14800",
+    "id": "14800",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=19007&avatarType=issuetype",
+    "name": "EB Creative",
+    "subtask": false,
+    "avatarId": 19007
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/14801",
+    "id": "14801",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=19008&avatarType=issuetype",
+    "name": "Search & Discovery",
+    "subtask": false,
+    "avatarId": 19008
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/17300",
+    "id": "17300",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10306&avatarType=issuetype",
+    "name": "Landing Page",
+    "subtask": false,
+    "avatarId": 10306
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13104",
+    "id": "13104",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Misc. Design Sub Task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13105",
+    "id": "13105",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Misc. Editorial Sub Task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13106",
+    "id": "13106",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Photo/Video Sub Task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13108",
+    "id": "13108",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Imaging Sub Task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13600",
+    "id": "13600",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Site Merchandising Sub Task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/13602",
+    "id": "13602",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "POG Sub Type",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/15000",
+    "id": "15000",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Social Sub Task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/15001",
+    "id": "15001",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "EB Creative Sub Task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/15601",
+    "id": "15601",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "CRM Sub Task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/15602",
+    "id": "15602",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Digital Marketing Sub Task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/15604",
+    "id": "15604",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Search & Discovery Sub Task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/15900",
+    "id": "15900",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=13200&avatarType=issuetype",
+    "name": "Source Code Request",
+    "subtask": false,
+    "avatarId": 13200
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/17000",
+    "id": "17000",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Source Code Request Sub Task",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/19500",
+    "id": "19500",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "HR-Absence",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12509",
+    "id": "12509",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "HR-Benefits",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/14400",
+    "id": "14400",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "HR-HRIS",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/14401",
+    "id": "14401",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "HR-Talent Acquisition",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/20100",
+    "id": "20100",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "HR-Talent Management",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12507",
+    "id": "12507",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "HR-North America",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12508",
+    "id": "12508",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "HR-EMEA",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/19100",
+    "id": "19100",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "HR-APAC",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/19700",
+    "id": "19700",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "HR-Compensation",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/19600",
+    "id": "19600",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Oracle HCM",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12505",
+    "id": "12505",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Payroll-US",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12506",
+    "id": "12506",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Payroll-FLE",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/19101",
+    "id": "19101",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Payroll-APAC",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12510",
+    "id": "12510",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "WFM",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/14600",
+    "id": "14600",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "IS&T",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/15401",
+    "id": "15401",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "PUM",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/17900",
+    "id": "17900",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Kronos",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/18501",
+    "id": "18501",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Digital",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/18502",
+    "id": "18502",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Digital (sub-task)",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/18503",
+    "id": "18503",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Retail",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/18505",
+    "id": "18505",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+    "name": "Retail (sub-task)",
+    "subtask": true,
+    "avatarId": 10316
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/18506",
+    "id": "18506",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Vendor",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12601",
+    "id": "12601",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Copy",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12603",
+    "id": "12603",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Copy Sub",
+    "subtask": true,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/18508",
+    "id": "18508",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "PDP Copy",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/10100",
+    "id": "10100",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Enhancement",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/16400",
+    "id": "16400",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Merch Planning & Allocation",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/18201",
+    "id": "18201",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Merch DOS Expansion",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/16401",
+    "id": "16401",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Merch Pricing",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/11402",
+    "id": "11402",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "UX/UI Design",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/19800",
+    "id": "19800",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10306&avatarType=issuetype",
+    "name": "Product Initiative",
+    "subtask": false,
+    "avatarId": 10306
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/11201",
+    "id": "11201",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=17220&avatarType=issuetype",
+    "name": "Research",
+    "subtask": false,
+    "avatarId": 17220
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/20000",
+    "id": "20000",
+    "description": "Data Subjects Request",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=13200&avatarType=issuetype",
+    "name": "DSR",
+    "subtask": false,
+    "avatarId": 13200
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/20300",
+    "id": "20300",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "DPIA",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/20001",
+    "id": "20001",
+    "description": "Policy Review and Drafting",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10307&avatarType=issuetype",
+    "name": "Policy",
+    "subtask": false,
+    "avatarId": 10307
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/20002",
+    "id": "20002",
+    "description": "Data Breach, Security Breach, Data Privacy Incident",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+    "name": "INC",
+    "subtask": false,
+    "avatarId": 10303
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/20003",
+    "id": "20003",
+    "description": "Privacy Due DiligencePOC RequestProcess Change Request3rd Party Vendor Assessment",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10312&avatarType=issuetype",
+    "name": "PDD",
+    "subtask": false,
+    "avatarId": 10312
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12600",
+    "id": "12600",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10306&avatarType=issuetype",
+    "name": "Design",
+    "subtask": false,
+    "avatarId": 10306
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/19400",
+    "id": "19400",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10308&avatarType=issuetype",
+    "name": "Non-Prod Issue",
+    "subtask": false,
+    "avatarId": 10308
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/19401",
+    "id": "19401",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+    "name": "Production Issue",
+    "subtask": false,
+    "avatarId": 10303
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/10601",
+    "id": "10601",
+    "description": "Scheduling Assignments",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10311&avatarType=issuetype",
+    "name": "Scheduling Task",
+    "subtask": false,
+    "avatarId": 10311
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/10803",
+    "id": "10803",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Access",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/19900",
+    "id": "19900",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Test Scenario",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12404",
+    "id": "12404",
+    "description": "Default issue type for all new VMO requests.",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=18707&avatarType=issuetype",
+    "name": "VMO Request",
+    "subtask": false,
+    "avatarId": 18707
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/11902",
+    "id": "11902",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=18708&avatarType=issuetype",
+    "name": "Market Research",
+    "subtask": false,
+    "avatarId": 18708
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12402",
+    "id": "12402",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=18709&avatarType=issuetype",
+    "name": "Market Brief",
+    "subtask": false,
+    "avatarId": 18709
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12401",
+    "id": "12401",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=18712&avatarType=issuetype",
+    "name": "Other Research",
+    "subtask": false,
+    "avatarId": 18712
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/14200",
+    "id": "14200",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=18711&avatarType=issuetype",
+    "name": "Strategic Sourcing",
+    "subtask": false,
+    "avatarId": 18711
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/14201",
+    "id": "14201",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=18710&avatarType=issuetype",
+    "name": "Market Evaluation",
+    "subtask": false,
+    "avatarId": 18710
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/16300",
+    "id": "16300",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=22800&avatarType=issuetype",
+    "name": "Intake",
+    "subtask": false,
+    "avatarId": 22800
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/16600",
+    "id": "16600",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=25303&avatarType=issuetype",
+    "name": "Advisory",
+    "subtask": false,
+    "avatarId": 25303
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/19300",
+    "id": "19300",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Dynamic Sourcing",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/12800",
+    "id": "12800",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Request",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/14700",
+    "id": "14700",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Finance",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/14701",
+    "id": "14701",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Sales & Banking",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/16104",
+    "id": "16104",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Azure Alerts - General",
+    "subtask": false,
+    "avatarId": 10300
+  },
+  {
+    "self": "https://jira.footlocker.com/rest/api/2/issuetype/16700",
+    "id": "16700",
+    "description": "",
+    "iconUrl": "https://jira.footlocker.com/secure/viewavatar?size=xsmall&avatarId=10300&avatarType=issuetype",
+    "name": "Repeat Deployment",
+    "subtask": false,
+    "avatarId": 10300
+  }
+]
