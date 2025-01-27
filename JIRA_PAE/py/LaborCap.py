@@ -12,10 +12,6 @@ import pandas as pd
 from pathlib import Path
 from datetime import datetime
 
-warnings.filterwarnings("ignore")
-
-base_url = 'https://jira.footlocker.com/rest/api/2/search'
-
 
 
 discovery_state = ["created",
@@ -554,7 +550,7 @@ run_proj ='ALL'
 
 
 partitionCnt=5
-filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/Timesheet/'
+filepath='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/LaborCap/'
 
 # filepath='../output/TimeSheet'
 importfile='/Users/u1002018/Library/CloudStorage/OneDrive-SharedLibraries-FootLocker/Global Technology Services - DASH Doc Library/AllProjects/transition_history_Story.csv'
@@ -680,11 +676,6 @@ def StoryDataframe(dataframe):
         'fields.project.key':'ProjectId',})
 
 
-global logger
-logger = setup_logger(logging.INFO)
-logger.info("=======================================")
-logger.info("Script start accumulating data from JIRA")
-
 
 def getDates(key,state):
     dates=''
@@ -774,6 +765,15 @@ def getChangeLog(element):
                     'to': item['toString'],
                 })
     return changelog_Rec
+
+global logger
+logger = setup_logger(logging.INFO)
+logger.info("=======================================")
+logger.info("Script start accumulating data from JIRA")
+
+warnings.filterwarnings("ignore")
+
+base_url = 'https://jira.footlocker.com/rest/api/2/search'
 
 
 # clean folder
